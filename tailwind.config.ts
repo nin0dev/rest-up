@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         'transparent-gray': 'rgba(83, 83, 83, 0.60);',
+        'main-purple': '#A72ABA',
       },
       boxShadow: {
         '2xl': '0 0 60px 10px rgba(0, 0, 0, 0.3)',

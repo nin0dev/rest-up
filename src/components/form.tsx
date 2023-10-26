@@ -23,14 +23,12 @@ export default function Form({ children }: { children: any }) {
   return (
     <>
       {children[step]}
-      <div>
-        {step < children.length - 1 && step > 0 && (
-          <PrevButton onClick={prevStep}></PrevButton>
-        )}
-        {step < children.length - 1 && (
-          <NextButton onClick={nextStep}></NextButton>
-        )}
-      </div>
+      {step < children.length && step > 0 && (
+        <PrevButton onClick={prevStep}></PrevButton>
+      )}
+      {step < children.length - 1 && (
+        <NextButton onClick={nextStep}></NextButton>
+      )}
     </>
   );
 }

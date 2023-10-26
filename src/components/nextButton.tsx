@@ -1,10 +1,11 @@
 export default function NextButton({ onClick }: any) {
   return (
-    <div className="row-start-2 flex justify-start items-center ml-5">
+    <div className="row-start-2 col-start-3 flex justify-start items-center ml-5">
       <button
         title="Next"
-        className="w-10 h-10 flex items-center uppercase text-[12px] p-3 rounded bg-[#A72ABA] shadow-2xl shadow-[#A72ABA]"
+        className="w-10 h-10 flex items-center uppercase text-[12px] p-3 rounded bg-main-purple shadow-2xl shadow-main-purple"
         onClick={onClick}
+        type="submit"
       >
         <svg
           width="18"
